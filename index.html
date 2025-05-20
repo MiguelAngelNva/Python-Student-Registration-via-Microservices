@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cliente Web - Comentarios</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Gestión de los Estudiantes</h1>
+
+    <form id="studentForm">
+      <input type="text" id="nombre" placeholder="Nombre del estudiante" required>
+      <input type="text" id="apellido" placeholder="Apellido del estudiante" required>
+      <input type="text" id="programa_academico" placeholder="Programa academico que cursa" required>
+      <input type="number" id="edad" placeholder="Edad del estudiante" required>
+      <button type="submit">Crear un nuevo estudiante</button>
+    </form>
+
+    <h2>Estudiantes Registrados</h2>
+    <ul id="studentsList"></ul>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
